@@ -1,19 +1,19 @@
-# 🎓 University Student Registration & Course Enrollment System
+#  Student Registration & Course Enrollment System
 
 A web-based system for managing student registrations and course enrollments, built using **PHP**, **MySQL**, **HTML**, **CSS**, and **JavaScript**.  
 Developed as part of the Web Engineering Lab at **Daffodil International University**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Student Registration with validation
-- 📋 Student List (view all registered students)
-- 📚 Course Enrollment form with validation
-- 🧾 View Student Enrollment History
-- 💡 Responsive and user-friendly UI
-- 🔐 Basic error and success messages
-- 🇧🇩 Includes Bangladeshi sample student data
+-  Student Registration with validation
+-  Student List (view all registered students)
+-  Course Enrollment form with validation
+-  View Student Enrollment History
+-  Responsive and user-friendly UI
+-  Basic error and success messages
+-  Includes Bangladeshi sample student data
 
 ---
 
@@ -33,20 +33,20 @@ student-system/
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/student-system.git
-cd student-system
+git clone https://github.com/shefat2002/student-registration-system
+cd student-registration-system
 ```
 
 ### 2. Set up the MySQL Database
 
 ```sql
-CREATE DATABASE university;
+CREATE DATABASE student-registration;
 
-USE university;
+USE student-registration;
 
 CREATE TABLE students (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -101,7 +101,7 @@ Use the sample SQL provided for Bangladeshi students and course enrollments.
 ##  Author
 
 **Your Name**  
-Md Shefat Al Mahud, Daffodil International University  
- youremail@example.com
+Md Shefat Al Mahmud, Daffodil International University  
+ shefat2002@gmail.com
 
 ---
