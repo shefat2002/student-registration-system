@@ -1,0 +1,11 @@
+-- Insert student
+INSERT INTO students (name, email, student_id, department, major, dob, address) VALUES (?, ?, ?, ?, ?, ?, ?);
+
+-- Select all students
+SELECT name, student_id, department, major, email FROM students;
+
+-- Insert enrollment
+INSERT INTO enrollments (student_id, course_code, course_title, semester) VALUES (?, ?, ?, ?);
+
+-- Get enrollment history
+SELECT course_code, course_title, semester, grade FROM enrollments WHERE student_id = ?;
